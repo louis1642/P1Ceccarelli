@@ -6,41 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/Bibliography/Book.h
-Publication.h
-/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/Bibliography/Publication.h
-
-/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/Bibliography/ConferenceArticle.h
-Publication.h
-/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/Bibliography/Publication.h
-
-/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/Bibliography/PaperArticle.h
+/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/Bibliography/Publication.cpp
 Publication.h
 /Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/Bibliography/Publication.h
 
 /Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/Bibliography/Publication.h
 string
 -
-
-/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/Bibliography/QuickSort.h
-vector
--
-
-/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/Bibliography/main.cpp
-iostream
--
-string
--
-vector
--
-Publication.h
-/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/Bibliography/Publication.h
-Book.h
-/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/Bibliography/Book.h
-PaperArticle.h
-/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/Bibliography/PaperArticle.h
-ConferenceArticle.h
-/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/Bibliography/ConferenceArticle.h
-QuickSort.h
-/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/Bibliography/QuickSort.h
 

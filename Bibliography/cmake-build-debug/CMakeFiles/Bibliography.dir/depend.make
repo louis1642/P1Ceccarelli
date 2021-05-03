@@ -16,9 +16,6 @@ CMakeFiles/Bibliography.dir/PaperArticle.cpp.o: ../Publication.h
 CMakeFiles/Bibliography.dir/Publication.cpp.o: ../Publication.cpp
 CMakeFiles/Bibliography.dir/Publication.cpp.o: ../Publication.h
 
-CMakeFiles/Bibliography.dir/QuickSort.cpp.o: ../QuickSort.cpp
-CMakeFiles/Bibliography.dir/QuickSort.cpp.o: ../QuickSort.h
-
 CMakeFiles/Bibliography.dir/main.cpp.o: ../Book.h
 CMakeFiles/Bibliography.dir/main.cpp.o: ../ConferenceArticle.h
 CMakeFiles/Bibliography.dir/main.cpp.o: ../PaperArticle.h

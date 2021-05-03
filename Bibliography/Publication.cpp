@@ -15,13 +15,13 @@ bool Publication::operator>(const Publication &rhs) const {
     return (this->authors > rhs.authors);
 }
 bool Publication::operator<(const Publication &rhs) const {
-    return (this->authors > rhs.authors);
+    return (this->authors < rhs.authors);
 }
 bool Publication::operator>=(const Publication &rhs) const {
     return (this->authors >= rhs.authors);
 }
 bool Publication::operator<=(const Publication &rhs) const {
-    return (this->authors >= rhs.authors);
+    return (this->authors <= rhs.authors);
 }
 
 // getters & setters

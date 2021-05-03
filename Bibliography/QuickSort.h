@@ -8,6 +8,8 @@
 #ifndef BIBLIOGRAPHY__QUICKSORT_H_
 #define BIBLIOGRAPHY__QUICKSORT_H_
 
+// ATTENZIONE: non posso implementare le funzioni template in un file .cpp!
+// è necessario scrivere tutto in un header file!
 
 #include <vector>
 
@@ -19,8 +21,10 @@ void quickSort(std::vector<T>& A, int p, int r) {
         quickSort(A, q+1, r);
     }
 }
-//template <class T>
-//void quickSort(std::vector<T>& A);
+template <class T>
+void quickSort(std::vector<T>& A) {
+    quickSort(A, 0, A.size()-1);
+}
 
 template <class T>
 int partition(std::vector<T>& A, int p, int r) {
@@ -41,12 +45,14 @@ int partition(std::vector<T>& A, int p, int r) {
         }
     }
 }
+
 template <class T>
 void swap(std::vector<T>& A, int i, int j) {
     T temp = A.at(i);
     A.at(i) = A.at(j);
     A.at(j) = temp;
 }
+
 
 
 

@@ -5,7 +5,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Bibliography.dir/ConferenceArticle.cpp.o"
   "CMakeFiles/Bibliography.dir/PaperArticle.cpp.o"
   "CMakeFiles/Bibliography.dir/Publication.cpp.o"
-  "CMakeFiles/Bibliography.dir/QuickSort.cpp.o"
   "CMakeFiles/Bibliography.dir/main.cpp.o"
 )
 

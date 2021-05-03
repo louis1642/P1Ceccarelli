@@ -250,33 +250,6 @@ Publication.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bibliography.dir/build.make CMakeFiles/Bibliography.dir/Publication.cpp.s
 .PHONY : Publication.cpp.s
 
-QuickSort.o: QuickSort.cpp.o
-
-.PHONY : QuickSort.o
-
-# target to build an object file
-QuickSort.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bibliography.dir/build.make CMakeFiles/Bibliography.dir/QuickSort.cpp.o
-.PHONY : QuickSort.cpp.o
-
-QuickSort.i: QuickSort.cpp.i
-
-.PHONY : QuickSort.i
-
-# target to preprocess a source file
-QuickSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bibliography.dir/build.make CMakeFiles/Bibliography.dir/QuickSort.cpp.i
-.PHONY : QuickSort.cpp.i
-
-QuickSort.s: QuickSort.cpp.s
-
-.PHONY : QuickSort.s
-
-# target to generate assembly for a file
-QuickSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bibliography.dir/build.make CMakeFiles/Bibliography.dir/QuickSort.cpp.s
-.PHONY : QuickSort.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -325,9 +298,6 @@ help:
 	@echo "... Publication.o"
 	@echo "... Publication.i"
 	@echo "... Publication.s"
-	@echo "... QuickSort.o"
-	@echo "... QuickSort.i"
-	@echo "... QuickSort.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
