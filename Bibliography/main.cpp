@@ -40,7 +40,7 @@ int main() {
     for (const auto pubPtr : pubs) {
         cout << pubPtr->getTitle() << endl;
     }
-
+    std::clog << "log\n";
     quickSort(pubs, 0, pubs.size()-1);
 
     cout << "\nVettore ordinato:" << endl;
@@ -49,6 +49,8 @@ int main() {
     }
 
     cout << endl << (*pubs.at(0) < *pubs.at(1)) << endl;
+    cout << endl << (*pubs.at(1) < *pubs.at(2)) << endl;
+    cout << endl << (*pubs.at(2) < *pubs.at(0)) << endl;
 
 
 

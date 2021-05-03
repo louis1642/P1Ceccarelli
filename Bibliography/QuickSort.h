@@ -34,10 +34,10 @@ int partition(std::vector<T>& A, int p, int r) {
     while (true) {
         do {
             j--;
-        } while (A.at(j) > pivot);
+        } while (*A.at(j) > *pivot);
         do {
             i++;
-        } while (A.at(i) < pivot);
+        } while (*A.at(i) < *pivot);
         if (i < j) {
             swap(A, i, j);
         } else {
