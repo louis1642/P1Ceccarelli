@@ -1,0 +1,5 @@
+1 Andrea 39.23
+3 Marco 0
+4 Giovanni -12.00
+5 Franco 0
+6 Peppe -2.22
