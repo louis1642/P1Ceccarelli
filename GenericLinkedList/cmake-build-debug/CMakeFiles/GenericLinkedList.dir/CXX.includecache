@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/GenericLinkedList/LinkedList.cpp
+LinkedList.h
+/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/GenericLinkedList/LinkedList.h
+
+/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/GenericLinkedList/LinkedList.h
+Node.h
+/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/GenericLinkedList/Node.h
+iostream
+-
+LinkedList.cpp
+/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/GenericLinkedList/LinkedList.cpp
+
+/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/GenericLinkedList/Node.h
+
+/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/GenericLinkedList/main.cpp
+iostream
+-
+LinkedList.h
+/Users/luigicatello/OneDrive - Università di Napoli Federico II/Anno II/2 semestre/Programmazione I/C++/GenericLinkedList/LinkedList.h
+
