@@ -26,12 +26,13 @@ class DLinkedList {
   bool isEmpty() const;                 // true se la lista è vuota
   const T& front() const;               // front element
   const T& back() const;                // back element
-  void addFront(const T& elem);               // aggiungi elemento al front
-  void addBack(const T& elem);                // aggiungi elemento al back
+  void addFront(const T& elem);         // aggiungi elemento al front
+  void addBack(const T& elem);          // aggiungi elemento al back
   void removeFront();                   // rimuove elemento dal front
   void removeBack();                    // rimuove elemento dal back
   std::string toString();               // converte in stringa
-
+  void addInOrder(const T& elem);       // aggiungi un elemento in ordine
+  void reverseList();                   // inverte l'ordine degli elementi nella lista
 };
 
 template<typename T>
@@ -124,4 +125,30 @@ std::string DLinkedList<T>::toString() {
     out << "Trailer";
     return out.str();
 }
+
+template<typename T>
+void DLinkedList<T>::addInOrder(const T &elem) {
+    DNode<T> *u = header->next;
+    while (u != trailer) {
+        if (elem < u->element) {
+            break;  // esci dal ciclo! Abbiamo trovato il posto giusto
+        }
+        u = u->next;
+    }
+    add(u, elem);
+}
+
+template<typename T>
+void DLinkedList<T>::reverseList() {
+    DLinkedList<T> temp;
+    while (!this->isEmpty()) {
+        temp.addFront(this->front());
+        this->removeFront();
+    }
+    while (!temp.isEmpty()) {
+        this->addBack(temp.front());
+        temp.removeFront();
+    }
+}
+
 #endif //DOUBLELINKEDLIST__DLINKEDLIST_H_

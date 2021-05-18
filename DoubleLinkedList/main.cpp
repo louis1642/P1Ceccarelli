@@ -14,6 +14,9 @@ int main() {
     l.addFront("GHI");
     l.addBack("LMN");
     cout << l.toString() << endl;
+    l.reverseList();
+    cout << l.toString() << endl;
+
 
 
     return 0;
