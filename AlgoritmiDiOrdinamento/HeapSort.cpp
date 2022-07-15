@@ -98,7 +98,7 @@ void HeapSort::sort()
 		a[0] = tmp;
 
 		//richiamo heapify perchè ho rispettato il vincolo che ci siano heap
-		heapify(a, size, 0);
+		heapify(a, i, 0);
 	}
 }
 
@@ -136,6 +136,6 @@ void HeapSort::buildHeap(std::vector<int>& a) const
 	int size = a.size();
 
 	//size / 2 corrisponde alla posizione dell'ultimo elemento con figlio
-	for (int i = (size / 2) - 1; i >= 0; i--)
+	for (int i = size / 2 - 1; i >= 0; i--)
 		heapify(a, size, i);
 }

@@ -4,6 +4,7 @@
 #include "QuickSort.h"
 #include "HeapSort.h"
 #include "BubbleSort.h"
+#include "PriorityQueue.h"
 
 #include <vector>
 #include <iostream>
@@ -12,7 +13,7 @@ void sort(Sorter& s);
 
 int main()
 {
-	std::vector<int> items {2, 1, 0, 8 };
+	std::vector<int> items {0, 2, 5, 6, 1, 3};
 	
 	MergeSort ms(items);
 	InsertionSort is(items);
@@ -20,8 +21,9 @@ int main()
 	QuickSort qs(items);
 	BubbleSort bs(items);
 	HeapSort hs(items);
+	PriorityQueue pq(items);
 
-	std::vector<Sorter*> sorters {&ms, &is, &ss, &qs, &hs, &bs};
+	std::vector<Sorter*> sorters {&ms, &is, &ss, &qs, &hs, &bs, &pq};
 
 	std::cout << "Vettore originale:" << std::endl;
 	ms.printItems(items);

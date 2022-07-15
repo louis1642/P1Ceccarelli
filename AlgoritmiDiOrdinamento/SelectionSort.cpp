@@ -24,13 +24,13 @@ void SelectionSort::sort()
 	int i, j, min;
 
 	//per ogni elemento fino al penultimo
-	for (i = 0; i < size-2; i++) 
+	for (i = 0; i < size-1; i++) 
 	{
 		//salvo l'indice del primo ciclo
 		min = i;
 
 		//per ogni elemento
-		for (j = i + 1; j < size-1; j++)
+		for (j = i + 1; j < size; j++)
 		{
 			//se l'elemento è minore del valore dato dall'indice precedentemente salvato
 			if (a[j] < a[min])
